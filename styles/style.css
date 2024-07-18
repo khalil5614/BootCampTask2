@@ -4,37 +4,56 @@ body {
 .lists{
 text-align: center;
 background-color: white;
-padding: 50px;
+padding: 30px;
 }
 ul{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-ul li {
     list-style: none;
-    margin-right: 50px;
-    
+    justify-content: space-between;
+}
+.listItemName{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: xx-large;
 
-  }
-  
-.listItem{
-    justify-content: space-around;
+}
+.listItemImage{
+    height: 100px;
+    width: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.listItem1{
+    background-color: #0dcbf0;
     display: flex;
-justify-items: stretch;
+    justify-content: space-between;
+    justify-items: center;
     border-radius: 10px;
-    height: 200px;
+    padding: 15px;
+    height: 150px;
     width: 300px;
 }
-.listItem1{
-    background-color: aqua;
-
-}
 .listItem2{
-    background-color: aqua;
+    background-color: #0e6ffd;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    height: 150px;
+    width: 300px;
 
 }
 .listItem3{
-    background-color: aqua;
+    background-color: #198754;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    height: 150px;
+    width: 300px;
 
 }
