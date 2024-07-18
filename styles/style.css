@@ -1,0 +1,40 @@
+body {
+    background-color: #000000;
+}
+.lists{
+text-align: center;
+background-color: white;
+padding: 50px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul li {
+    list-style: none;
+    margin-right: 50px;
+    
+
+  }
+  
+.listItem{
+    justify-content: space-around;
+    display: flex;
+justify-items: stretch;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+.listItem1{
+    background-color: aqua;
+
+}
+.listItem2{
+    background-color: aqua;
+
+}
+.listItem3{
+    background-color: aqua;
+
+}
